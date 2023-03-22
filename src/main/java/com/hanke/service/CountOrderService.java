@@ -25,8 +25,6 @@ public class CountOrderService {
 			throw new RuntimeException(Constant.PARAMETER_VERIFICATION_ERROR);
 		}
 
-
-
 		return getcommon(orderListVO);
 	}
 
